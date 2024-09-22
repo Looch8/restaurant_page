@@ -1,0 +1,38 @@
+body {
+	background-image: url("./images/food-background.png");
+	background-repeat: round;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#content > h1 {
+	background-color: rgb(115, 159, 124);
+	border-radius: 50%;
+	padding: 20px;
+}
+
+#content > h3 {
+	background-color: rgb(115, 159, 124);
+	border-radius: 5%;
+	padding: 20px;
+}
+
+#content > img {
+	max-width: 500px;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+}
+
+nav > button {
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10%;
+	font-size: large;
+}
