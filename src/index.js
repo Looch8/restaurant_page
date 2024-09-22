@@ -1,1 +1,4 @@
-console.log("test");
+import pageload from "./pageload";
+
+// Initial page load of home screen
+pageload();
