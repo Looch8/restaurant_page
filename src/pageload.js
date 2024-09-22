@@ -12,6 +12,8 @@ const pageload = () => {
 		"Five star restaurant situated at the end of time and matter.";
 	image.src = backgroundImage;
 
+	content.replaceChildren();
+
 	content.appendChild(header);
 	content.appendChild(description);
 	content.appendChild(image);

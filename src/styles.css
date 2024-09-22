@@ -1,6 +1,6 @@
 body {
 	background-image: url("./images/food-background.png");
-	background-repeat: round;
+	/* background-repeat: round; */
 }
 
 #content {
@@ -13,12 +13,14 @@ body {
 	background-color: rgb(115, 159, 124);
 	border-radius: 50%;
 	padding: 20px;
+	font-size: 3rem;
 }
 
 #content > h3 {
 	background-color: rgb(115, 159, 124);
 	border-radius: 5%;
 	padding: 20px;
+	font-size: 1.5rem;
 }
 
 #content > img {
